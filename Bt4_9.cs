@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Program
+class Bt4_9
 {
     static void nhap(int[] a, int n)
     {

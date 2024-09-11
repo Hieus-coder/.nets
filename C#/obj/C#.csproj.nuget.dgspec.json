@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Github\\.net\\C#\\C#.csproj": {}
+    "E:\\Github\\.nets\\C#\\C#.csproj": {}
   },
   "projects": {
-    "E:\\Github\\.net\\C#\\C#.csproj": {
+    "E:\\Github\\.nets\\C#\\C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Github\\.net\\C#\\C#.csproj",
+        "projectUniqueName": "E:\\Github\\.nets\\C#\\C#.csproj",
         "projectName": "C#",
-        "projectPath": "E:\\Github\\.net\\C#\\C#.csproj",
+        "projectPath": "E:\\Github\\.nets\\C#\\C#.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\Github\\.net\\C#\\obj\\",
+        "outputPath": "E:\\Github\\.nets\\C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

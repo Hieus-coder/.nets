@@ -6,6 +6,7 @@
         {
             baitap bt = new baitap();
 
+            
             bt.max();
 
             bt.radom();

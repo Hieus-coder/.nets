@@ -28,17 +28,17 @@ public class baitap
 
         int randomNumber = random.Next(1, 7);
 
-        Console.Write("Nhập vào số bạn đoán (từ 1 đến 6): ");
+        Console.Write("Nhap so du doan (tu 1 den 6): ");
         int userGuess = int.Parse(Console.ReadLine());
 
         if (userGuess == randomNumber)
         {
-            Console.WriteLine("Chúc mừng! Bạn đã đoán đúng!");
+            Console.WriteLine("Chuc mung ban da dung!");
         }
         else
         {
-            Console.WriteLine("Bạn đã thua!");
-            Console.WriteLine("Số của tôi là " + randomNumber);
+            Console.WriteLine("Ban da thua!");
+            Console.WriteLine("So cua toi la " + randomNumber);
         }
     }
 }
