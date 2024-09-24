@@ -1,0 +1,15 @@
+E:\Github\.nets\24_9\obj\Debug\net8.0\24_9.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\.nets\24_9\obj\Debug\net8.0\24_9.AssemblyInfoInputs.cache
+E:\Github\.nets\24_9\obj\Debug\net8.0\24_9.AssemblyInfo.cs
+E:\Github\.nets\24_9\obj\Debug\net8.0\24_9.csproj.CoreCompileInputs.cache
+E:\Github\.nets\24_9\obj\Debug\net8.0\24_9.sourcelink.json
+E:\Github\.nets\24_9\bin\Debug\net8.0\24_9.exe
+E:\Github\.nets\24_9\bin\Debug\net8.0\24_9.deps.json
+E:\Github\.nets\24_9\bin\Debug\net8.0\24_9.runtimeconfig.json
+E:\Github\.nets\24_9\bin\Debug\net8.0\24_9.dll
+E:\Github\.nets\24_9\bin\Debug\net8.0\24_9.pdb
+E:\Github\.nets\24_9\obj\Debug\net8.0\24_9.dll
+E:\Github\.nets\24_9\obj\Debug\net8.0\refint\24_9.dll
+E:\Github\.nets\24_9\obj\Debug\net8.0\24_9.pdb
+E:\Github\.nets\24_9\obj\Debug\net8.0\24_9.genruntimeconfig.cache
+E:\Github\.nets\24_9\obj\Debug\net8.0\ref\24_9.dll

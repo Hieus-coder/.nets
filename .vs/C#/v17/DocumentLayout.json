@@ -3,22 +3,26 @@
   "WorkspaceRootPath": "E:\\Github\\.nets\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F1C6E51-610E-4C12-90E4-A0245E6448FC}|18_9\\18_9.csproj|e:\\github\\.nets\\18_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F1C6E51-610E-4C12-90E4-A0245E6448FC}|18_9\\18_9.csproj|solutionrelative:18_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AA48D1C-EA45-4C7F-9942-A54414B4682C}|24_9\\24_9.csproj|e:\\github\\.nets\\24_9\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA48D1C-EA45-4C7F-9942-A54414B4682C}|24_9\\24_9.csproj|solutionrelative:24_9\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F1C6E51-610E-4C12-90E4-A0245E6448FC}|18_9\\18_9.csproj|e:\\github\\.nets\\18_9\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F1C6E51-610E-4C12-90E4-A0245E6448FC}|18_9\\18_9.csproj|solutionrelative:18_9\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9AA48D1C-EA45-4C7F-9942-A54414B4682C}|24_9\\24_9.csproj|e:\\github\\.nets\\24_9\\danhsachsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA48D1C-EA45-4C7F-9942-A54414B4682C}|24_9\\24_9.csproj|solutionrelative:24_9\\danhsachsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AA48D1C-EA45-4C7F-9942-A54414B4682C}|24_9\\24_9.csproj|e:\\github\\.nets\\24_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AA48D1C-EA45-4C7F-9942-A54414B4682C}|24_9\\24_9.csproj|solutionrelative:24_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShoppingCart.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\18_9\\ShoppingCart.cs",
-              "RelativeDocumentMoniker": "18_9\\ShoppingCart.cs",
-              "ToolTip": "E:\\Github\\.nets\\18_9\\ShoppingCart.cs",
-              "RelativeToolTip": "18_9\\ShoppingCart.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAQwGYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "E:\\Github\\.nets\\24_9\\SinhVien.cs",
+              "RelativeDocumentMoniker": "24_9\\SinhVien.cs",
+              "ToolTip": "E:\\Github\\.nets\\24_9\\SinhVien.cs",
+              "RelativeToolTip": "24_9\\SinhVien.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T00:58:09.772Z",
+              "WhenOpened": "2024-09-24T00:43:08.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\18_9\\Program.cs",
-              "RelativeDocumentMoniker": "18_9\\Program.cs",
-              "ToolTip": "E:\\Github\\.nets\\18_9\\Program.cs",
-              "RelativeToolTip": "18_9\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DanhSachSinhVien.cs",
+              "DocumentMoniker": "E:\\Github\\.nets\\24_9\\DanhSachSinhVien.cs",
+              "RelativeDocumentMoniker": "24_9\\DanhSachSinhVien.cs",
+              "ToolTip": "E:\\Github\\.nets\\24_9\\DanhSachSinhVien.cs",
+              "RelativeToolTip": "24_9\\DanhSachSinhVien.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T00:57:18.591Z",
+              "WhenOpened": "2024-09-24T01:36:43.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Github\\.nets\\24_9\\Program.cs",
+              "RelativeDocumentMoniker": "24_9\\Program.cs",
+              "ToolTip": "E:\\Github\\.nets\\24_9\\Program.cs",
+              "RelativeToolTip": "24_9\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:39:24.744Z",
               "EditorCaption": ""
             }
           ]

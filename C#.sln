@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Bt28_8_max = Bt28_8_max
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_9", "18_9\18_9.csproj", "{2F1C6E51-610E-4C12-90E4-A0245E6448FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_9", "18_9\18_9.csproj", "{2F1C6E51-610E-4C12-90E4-A0245E6448FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24_9", "24_9\24_9.csproj", "{9AA48D1C-EA45-4C7F-9942-A54414B4682C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{2F1C6E51-610E-4C12-90E4-A0245E6448FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F1C6E51-610E-4C12-90E4-A0245E6448FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F1C6E51-610E-4C12-90E4-A0245E6448FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA48D1C-EA45-4C7F-9942-A54414B4682C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA48D1C-EA45-4C7F-9942-A54414B4682C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA48D1C-EA45-4C7F-9942-A54414B4682C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA48D1C-EA45-4C7F-9942-A54414B4682C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
