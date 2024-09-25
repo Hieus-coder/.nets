@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "E:\\Github\\.nets\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AA48D1C-EA45-4C7F-9942-A54414B4682C}|24_9\\24_9.csproj|e:\\github\\.nets\\24_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AA48D1C-EA45-4C7F-9942-A54414B4682C}|24_9\\24_9.csproj|solutionrelative:24_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|e:\\github\\.nets\\25_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|solutionrelative:25_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AA48D1C-EA45-4C7F-9942-A54414B4682C}|24_9\\24_9.csproj|e:\\github\\.nets\\24_9\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AA48D1C-EA45-4C7F-9942-A54414B4682C}|24_9\\24_9.csproj|solutionrelative:24_9\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|e:\\github\\.nets\\25_9\\baitap1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|solutionrelative:25_9\\baitap1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AA48D1C-EA45-4C7F-9942-A54414B4682C}|24_9\\24_9.csproj|e:\\github\\.nets\\24_9\\danhsachsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AA48D1C-EA45-4C7F-9942-A54414B4682C}|24_9\\24_9.csproj|solutionrelative:24_9\\danhsachsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|e:\\github\\.nets\\25_9\\baitap2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|solutionrelative:25_9\\baitap2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|e:\\github\\.nets\\25_9\\baitap3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|solutionrelative:25_9\\baitap3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SinhVien.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\24_9\\SinhVien.cs",
-              "RelativeDocumentMoniker": "24_9\\SinhVien.cs",
-              "ToolTip": "E:\\Github\\.nets\\24_9\\SinhVien.cs",
-              "RelativeToolTip": "24_9\\SinhVien.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BaiTap3.cs",
+              "DocumentMoniker": "E:\\Github\\.nets\\25_9\\BaiTap3.cs",
+              "RelativeDocumentMoniker": "25_9\\BaiTap3.cs",
+              "ToolTip": "E:\\Github\\.nets\\25_9\\BaiTap3.cs",
+              "RelativeToolTip": "25_9\\BaiTap3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T00:43:08.192Z",
+              "WhenOpened": "2024-09-25T01:23:01.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DanhSachSinhVien.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\24_9\\DanhSachSinhVien.cs",
-              "RelativeDocumentMoniker": "24_9\\DanhSachSinhVien.cs",
-              "ToolTip": "E:\\Github\\.nets\\24_9\\DanhSachSinhVien.cs",
-              "RelativeToolTip": "24_9\\DanhSachSinhVien.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwCkAAAAJAAAAAAAAAA==",
+              "Title": "BaiTap2.cs",
+              "DocumentMoniker": "E:\\Github\\.nets\\25_9\\BaiTap2.cs",
+              "RelativeDocumentMoniker": "25_9\\BaiTap2.cs",
+              "ToolTip": "E:\\Github\\.nets\\25_9\\BaiTap2.cs",
+              "RelativeToolTip": "25_9\\BaiTap2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T01:36:43.531Z",
+              "WhenOpened": "2024-09-25T01:22:46.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaiTap1.cs",
+              "DocumentMoniker": "E:\\Github\\.nets\\25_9\\BaiTap1.cs",
+              "RelativeDocumentMoniker": "25_9\\BaiTap1.cs",
+              "ToolTip": "E:\\Github\\.nets\\25_9\\BaiTap1.cs",
+              "RelativeToolTip": "25_9\\BaiTap1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T01:22:35.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\24_9\\Program.cs",
-              "RelativeDocumentMoniker": "24_9\\Program.cs",
-              "ToolTip": "E:\\Github\\.nets\\24_9\\Program.cs*",
-              "RelativeToolTip": "24_9\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\Github\\.nets\\25_9\\Program.cs",
+              "RelativeDocumentMoniker": "25_9\\Program.cs",
+              "ToolTip": "E:\\Github\\.nets\\25_9\\Program.cs",
+              "RelativeToolTip": "25_9\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T00:39:24.744Z",
+              "WhenOpened": "2024-09-25T00:50:50.052Z",
               "EditorCaption": ""
             }
           ]
