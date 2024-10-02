@@ -1,0 +1,15 @@
+E:\Github\.nets\2_10\bin\Debug\net8.0\2_10.exe
+E:\Github\.nets\2_10\bin\Debug\net8.0\2_10.deps.json
+E:\Github\.nets\2_10\bin\Debug\net8.0\2_10.runtimeconfig.json
+E:\Github\.nets\2_10\bin\Debug\net8.0\2_10.dll
+E:\Github\.nets\2_10\bin\Debug\net8.0\2_10.pdb
+E:\Github\.nets\2_10\obj\Debug\net8.0\2_10.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\.nets\2_10\obj\Debug\net8.0\2_10.AssemblyInfoInputs.cache
+E:\Github\.nets\2_10\obj\Debug\net8.0\2_10.AssemblyInfo.cs
+E:\Github\.nets\2_10\obj\Debug\net8.0\2_10.csproj.CoreCompileInputs.cache
+E:\Github\.nets\2_10\obj\Debug\net8.0\2_10.sourcelink.json
+E:\Github\.nets\2_10\obj\Debug\net8.0\2_10.dll
+E:\Github\.nets\2_10\obj\Debug\net8.0\refint\2_10.dll
+E:\Github\.nets\2_10\obj\Debug\net8.0\2_10.pdb
+E:\Github\.nets\2_10\obj\Debug\net8.0\2_10.genruntimeconfig.cache
+E:\Github\.nets\2_10\obj\Debug\net8.0\ref\2_10.dll

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "E:\\Github\\.nets\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|e:\\github\\.nets\\25_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|solutionrelative:25_9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|e:\\github\\.nets\\2_10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|solutionrelative:2_10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|e:\\github\\.nets\\25_9\\baitap1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|solutionrelative:25_9\\baitap1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|e:\\github\\.nets\\2_10\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|solutionrelative:2_10\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|e:\\github\\.nets\\25_9\\baitap2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|solutionrelative:25_9\\baitap2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|e:\\github\\.nets\\2_10\\isellable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|solutionrelative:2_10\\isellable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|e:\\github\\.nets\\25_9\\baitap3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26EF6D08-FAEC-4A48-8137-DD601619E965}|25_9\\25_9.csproj|solutionrelative:25_9\\baitap3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|e:\\github\\.nets\\2_10\\producttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|solutionrelative:2_10\\producttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|e:\\github\\.nets\\2_10\\2_10.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|solutionrelative:2_10\\2_10.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,53 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BaiTap3.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\25_9\\BaiTap3.cs",
-              "RelativeDocumentMoniker": "25_9\\BaiTap3.cs",
-              "ToolTip": "E:\\Github\\.nets\\25_9\\BaiTap3.cs",
-              "RelativeToolTip": "25_9\\BaiTap3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Title": "ProductTypes.cs",
+              "DocumentMoniker": "E:\\Github\\.nets\\2_10\\ProductTypes.cs",
+              "RelativeDocumentMoniker": "2_10\\ProductTypes.cs",
+              "ToolTip": "E:\\Github\\.nets\\2_10\\ProductTypes.cs",
+              "RelativeToolTip": "2_10\\ProductTypes.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAwwI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T01:23:01.858Z",
+              "WhenOpened": "2024-10-02T01:08:48.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BaiTap2.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\25_9\\BaiTap2.cs",
-              "RelativeDocumentMoniker": "25_9\\BaiTap2.cs",
-              "ToolTip": "E:\\Github\\.nets\\25_9\\BaiTap2.cs",
-              "RelativeToolTip": "25_9\\BaiTap2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "ISellable.cs",
+              "DocumentMoniker": "E:\\Github\\.nets\\2_10\\ISellable.cs",
+              "RelativeDocumentMoniker": "2_10\\ISellable.cs",
+              "ToolTip": "E:\\Github\\.nets\\2_10\\ISellable.cs",
+              "RelativeToolTip": "2_10\\ISellable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T01:22:46.85Z",
+              "WhenOpened": "2024-10-02T01:08:17.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "2_10",
+              "DocumentMoniker": "E:\\Github\\.nets\\2_10\\2_10.csproj",
+              "RelativeDocumentMoniker": "2_10\\2_10.csproj",
+              "ToolTip": "E:\\Github\\.nets\\2_10\\2_10.csproj",
+              "RelativeToolTip": "2_10\\2_10.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-02T01:08:12.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BaiTap1.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\25_9\\BaiTap1.cs",
-              "RelativeDocumentMoniker": "25_9\\BaiTap1.cs",
-              "ToolTip": "E:\\Github\\.nets\\25_9\\BaiTap1.cs",
-              "RelativeToolTip": "25_9\\BaiTap1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\Github\\.nets\\2_10\\Product.cs",
+              "RelativeDocumentMoniker": "2_10\\Product.cs",
+              "ToolTip": "E:\\Github\\.nets\\2_10\\Product.cs",
+              "RelativeToolTip": "2_10\\Product.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T01:22:35.453Z",
+              "WhenOpened": "2024-10-02T01:04:53.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\25_9\\Program.cs",
-              "RelativeDocumentMoniker": "25_9\\Program.cs",
-              "ToolTip": "E:\\Github\\.nets\\25_9\\Program.cs",
-              "RelativeToolTip": "25_9\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\Github\\.nets\\2_10\\Program.cs",
+              "RelativeDocumentMoniker": "2_10\\Program.cs",
+              "ToolTip": "E:\\Github\\.nets\\2_10\\Program.cs",
+              "RelativeToolTip": "2_10\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T00:50:50.052Z",
+              "WhenOpened": "2024-10-02T00:57:07.469Z",
               "EditorCaption": ""
             }
           ]
