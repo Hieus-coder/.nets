@@ -36,7 +36,6 @@ public class MobilePhone : Product, ISellable
         return Stock > 0;
     }
 
-    // Hàm tạo danh sách sản phẩm mặc định
     public static List<MobilePhone> GetDefaultPhones()
     {
         return new List<MobilePhone>
@@ -83,7 +82,6 @@ public class Laptop : Product, ISellable
         return Stock > 0;
     }
 
-    // Hàm tạo danh sách sản phẩm mặc định
     public static List<Laptop> GetDefaultLaptops()
     {
         return new List<Laptop>
@@ -130,7 +128,6 @@ public class Accessory : Product, ISellable
         return Stock > 0;
     }
 
-    // Hàm tạo danh sách sản phẩm mặc định
     public static List<Accessory> GetDefaultAccessories()
     {
         return new List<Accessory>

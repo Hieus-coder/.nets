@@ -13,7 +13,6 @@ public abstract class Product
         Stock = stock;
     }
 
-    // Phương thức trừu tượng
     public abstract void DisplayProductInfo();
 
     public abstract void ApplyDiscount(decimal percentage);

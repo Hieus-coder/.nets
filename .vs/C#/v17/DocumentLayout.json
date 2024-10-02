@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Github\\.nets\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|e:\\github\\.nets\\2_10\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|solutionrelative:2_10\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|e:\\github\\.nets\\2_10\\isellable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|solutionrelative:2_10\\isellable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|e:\\github\\.nets\\2_10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|solutionrelative:2_10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|e:\\github\\.nets\\2_10\\producttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|solutionrelative:2_10\\producttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|e:\\github\\.nets\\2_10\\2_10.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C371B75D-D1FB-48E5-A4DC-11567F983AD3}|2_10\\2_10.csproj|solutionrelative:2_10\\2_10.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,76 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductTypes.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\2_10\\ProductTypes.cs",
-              "RelativeDocumentMoniker": "2_10\\ProductTypes.cs",
-              "ToolTip": "E:\\Github\\.nets\\2_10\\ProductTypes.cs",
-              "RelativeToolTip": "2_10\\ProductTypes.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAwwI8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T01:08:48.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ISellable.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\2_10\\ISellable.cs",
-              "RelativeDocumentMoniker": "2_10\\ISellable.cs",
-              "ToolTip": "E:\\Github\\.nets\\2_10\\ISellable.cs",
-              "RelativeToolTip": "2_10\\ISellable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T01:08:17.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "2_10",
-              "DocumentMoniker": "E:\\Github\\.nets\\2_10\\2_10.csproj",
-              "RelativeDocumentMoniker": "2_10\\2_10.csproj",
-              "ToolTip": "E:\\Github\\.nets\\2_10\\2_10.csproj",
-              "RelativeToolTip": "2_10\\2_10.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-02T01:08:12.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Product.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\2_10\\Product.cs",
-              "RelativeDocumentMoniker": "2_10\\Product.cs",
-              "ToolTip": "E:\\Github\\.nets\\2_10\\Product.cs",
-              "RelativeToolTip": "2_10\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T01:04:53.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\2_10\\Program.cs",
-              "RelativeDocumentMoniker": "2_10\\Program.cs",
-              "ToolTip": "E:\\Github\\.nets\\2_10\\Program.cs",
-              "RelativeToolTip": "2_10\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T00:57:07.469Z",
-              "EditorCaption": ""
             }
           ]
         }
