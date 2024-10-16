@@ -1,0 +1,7 @@
+E:\Github\.nets\WinFormsApp\WinFormsApp\obj\Debug\net8.0-windows\Carculator.Form1.resources
+E:\Github\.nets\WinFormsApp\WinFormsApp\obj\Debug\net8.0-windows\WinFormsApp.csproj.GenerateResource.cache
+E:\Github\.nets\WinFormsApp\WinFormsApp\obj\Debug\net8.0-windows\WinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\.nets\WinFormsApp\WinFormsApp\obj\Debug\net8.0-windows\WinFormsApp.AssemblyInfoInputs.cache
+E:\Github\.nets\WinFormsApp\WinFormsApp\obj\Debug\net8.0-windows\WinFormsApp.AssemblyInfo.cs
+E:\Github\.nets\WinFormsApp\WinFormsApp\obj\Debug\net8.0-windows\WinFormsApp.csproj.CoreCompileInputs.cache
+E:\Github\.nets\WinFormsApp\WinFormsApp\obj\Debug\net8.0-windows\WinFormsApp.sourcelink.json

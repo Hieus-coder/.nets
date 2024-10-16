@@ -1,0 +1,17 @@
+E:\Github\.nets\WinFormsApp\Calculator1\bin\Debug\net8.0-windows\Calculator1.exe
+E:\Github\.nets\WinFormsApp\Calculator1\bin\Debug\net8.0-windows\Calculator1.deps.json
+E:\Github\.nets\WinFormsApp\Calculator1\bin\Debug\net8.0-windows\Calculator1.runtimeconfig.json
+E:\Github\.nets\WinFormsApp\Calculator1\bin\Debug\net8.0-windows\Calculator1.dll
+E:\Github\.nets\WinFormsApp\Calculator1\bin\Debug\net8.0-windows\Calculator1.pdb
+E:\Github\.nets\WinFormsApp\Calculator1\obj\Debug\net8.0-windows\Calculator1.Form1.resources
+E:\Github\.nets\WinFormsApp\Calculator1\obj\Debug\net8.0-windows\Calculator1.csproj.GenerateResource.cache
+E:\Github\.nets\WinFormsApp\Calculator1\obj\Debug\net8.0-windows\Calculator1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\.nets\WinFormsApp\Calculator1\obj\Debug\net8.0-windows\Calculator1.AssemblyInfoInputs.cache
+E:\Github\.nets\WinFormsApp\Calculator1\obj\Debug\net8.0-windows\Calculator1.AssemblyInfo.cs
+E:\Github\.nets\WinFormsApp\Calculator1\obj\Debug\net8.0-windows\Calculator1.csproj.CoreCompileInputs.cache
+E:\Github\.nets\WinFormsApp\Calculator1\obj\Debug\net8.0-windows\Calculator1.sourcelink.json
+E:\Github\.nets\WinFormsApp\Calculator1\obj\Debug\net8.0-windows\Calculator1.dll
+E:\Github\.nets\WinFormsApp\Calculator1\obj\Debug\net8.0-windows\refint\Calculator1.dll
+E:\Github\.nets\WinFormsApp\Calculator1\obj\Debug\net8.0-windows\Calculator1.pdb
+E:\Github\.nets\WinFormsApp\Calculator1\obj\Debug\net8.0-windows\Calculator1.genruntimeconfig.cache
+E:\Github\.nets\WinFormsApp\Calculator1\obj\Debug\net8.0-windows\ref\Calculator1.dll
