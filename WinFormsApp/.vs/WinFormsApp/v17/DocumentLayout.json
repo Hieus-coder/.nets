@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Github\\.nets\\WinFormsApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DF6883B-1C0A-499E-835A-4A4CE034D5F3}|Calculator1\\Calculator1.csproj|e:\\github\\.nets\\winformsapp\\calculator1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DF6883B-1C0A-499E-835A-4A4CE034D5F3}|Calculator1\\Calculator1.csproj|solutionrelative:calculator1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C28FD39-112A-4504-A159-AD0D201D907C}|Login_form\\Login_form.csproj|e:\\github\\.nets\\winformsapp\\login_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5C28FD39-112A-4504-A159-AD0D201D907C}|Login_form\\Login_form.csproj|solutionrelative:login_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DF6883B-1C0A-499E-835A-4A4CE034D5F3}|Calculator1\\Calculator1.csproj|E:\\Github\\.nets\\WinFormsApp\\calculator1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DF6883B-1C0A-499E-835A-4A4CE034D5F3}|Calculator1\\Calculator1.csproj|solutionrelative:calculator1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5C28FD39-112A-4504-A159-AD0D201D907C}|Login_form\\Login_form.csproj|e:\\github\\.nets\\winformsapp\\login_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C28FD39-112A-4504-A159-AD0D201D907C}|Login_form\\Login_form.csproj|solutionrelative:login_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,20 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\WinFormsApp\\Calculator1\\Form1.cs",
-              "RelativeDocumentMoniker": "Calculator1\\Form1.cs",
-              "ToolTip": "E:\\Github\\.nets\\WinFormsApp\\Calculator1\\Form1.cs",
-              "RelativeToolTip": "Calculator1\\Form1.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAswIUAAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\Github\\.nets\\WinFormsApp\\Login_form\\Form1.cs",
+              "RelativeDocumentMoniker": "Login_form\\Form1.cs",
+              "ToolTip": "E:\\Github\\.nets\\WinFormsApp\\Login_form\\Form1.cs",
+              "RelativeToolTip": "Login_form\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T01:58:06.219Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-10-22T00:32:20.911Z",
               "EditorCaption": ""
             },
             {
@@ -40,14 +39,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\Github\\.nets\\WinFormsApp\\Calculator1\\Form1.cs",
-              "RelativeDocumentMoniker": "Calculator1\\Form1.cs",
-              "ToolTip": "E:\\Github\\.nets\\WinFormsApp\\Calculator1\\Form1.cs [Design]",
-              "RelativeToolTip": "Calculator1\\Form1.cs [Design]",
+              "DocumentMoniker": "E:\\Github\\.nets\\WinFormsApp\\Login_form\\Form1.cs",
+              "RelativeDocumentMoniker": "Login_form\\Form1.cs",
+              "ToolTip": "E:\\Github\\.nets\\WinFormsApp\\Login_form\\Form1.cs [Design]",
+              "RelativeToolTip": "Login_form\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T02:07:09.556Z",
+              "WhenOpened": "2024-10-22T00:31:32.187Z",
               "EditorCaption": " [Design]"
             }
           ]

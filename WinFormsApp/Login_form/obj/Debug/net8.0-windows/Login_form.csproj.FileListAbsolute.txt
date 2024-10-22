@@ -1,0 +1,17 @@
+E:\Github\.nets\WinFormsApp\Login_form\bin\Debug\net8.0-windows\Login_form.exe
+E:\Github\.nets\WinFormsApp\Login_form\bin\Debug\net8.0-windows\Login_form.deps.json
+E:\Github\.nets\WinFormsApp\Login_form\bin\Debug\net8.0-windows\Login_form.runtimeconfig.json
+E:\Github\.nets\WinFormsApp\Login_form\bin\Debug\net8.0-windows\Login_form.dll
+E:\Github\.nets\WinFormsApp\Login_form\bin\Debug\net8.0-windows\Login_form.pdb
+E:\Github\.nets\WinFormsApp\Login_form\obj\Debug\net8.0-windows\Login_form.Form1.resources
+E:\Github\.nets\WinFormsApp\Login_form\obj\Debug\net8.0-windows\Login_form.csproj.GenerateResource.cache
+E:\Github\.nets\WinFormsApp\Login_form\obj\Debug\net8.0-windows\Login_form.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\.nets\WinFormsApp\Login_form\obj\Debug\net8.0-windows\Login_form.AssemblyInfoInputs.cache
+E:\Github\.nets\WinFormsApp\Login_form\obj\Debug\net8.0-windows\Login_form.AssemblyInfo.cs
+E:\Github\.nets\WinFormsApp\Login_form\obj\Debug\net8.0-windows\Login_form.csproj.CoreCompileInputs.cache
+E:\Github\.nets\WinFormsApp\Login_form\obj\Debug\net8.0-windows\Login_form.sourcelink.json
+E:\Github\.nets\WinFormsApp\Login_form\obj\Debug\net8.0-windows\Login_form.dll
+E:\Github\.nets\WinFormsApp\Login_form\obj\Debug\net8.0-windows\refint\Login_form.dll
+E:\Github\.nets\WinFormsApp\Login_form\obj\Debug\net8.0-windows\Login_form.pdb
+E:\Github\.nets\WinFormsApp\Login_form\obj\Debug\net8.0-windows\Login_form.genruntimeconfig.cache
+E:\Github\.nets\WinFormsApp\Login_form\obj\Debug\net8.0-windows\ref\Login_form.dll
