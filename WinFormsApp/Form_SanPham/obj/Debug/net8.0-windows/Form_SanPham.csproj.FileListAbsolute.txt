@@ -1,0 +1,17 @@
+E:\Github\.nets\WinFormsApp\Form_SanPham\bin\Debug\net8.0-windows\Form_SanPham.exe
+E:\Github\.nets\WinFormsApp\Form_SanPham\bin\Debug\net8.0-windows\Form_SanPham.deps.json
+E:\Github\.nets\WinFormsApp\Form_SanPham\bin\Debug\net8.0-windows\Form_SanPham.runtimeconfig.json
+E:\Github\.nets\WinFormsApp\Form_SanPham\bin\Debug\net8.0-windows\Form_SanPham.dll
+E:\Github\.nets\WinFormsApp\Form_SanPham\bin\Debug\net8.0-windows\Form_SanPham.pdb
+E:\Github\.nets\WinFormsApp\Form_SanPham\obj\Debug\net8.0-windows\Form_SanPham.Form1.resources
+E:\Github\.nets\WinFormsApp\Form_SanPham\obj\Debug\net8.0-windows\Form_SanPham.csproj.GenerateResource.cache
+E:\Github\.nets\WinFormsApp\Form_SanPham\obj\Debug\net8.0-windows\Form_SanPham.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\.nets\WinFormsApp\Form_SanPham\obj\Debug\net8.0-windows\Form_SanPham.AssemblyInfoInputs.cache
+E:\Github\.nets\WinFormsApp\Form_SanPham\obj\Debug\net8.0-windows\Form_SanPham.AssemblyInfo.cs
+E:\Github\.nets\WinFormsApp\Form_SanPham\obj\Debug\net8.0-windows\Form_SanPham.csproj.CoreCompileInputs.cache
+E:\Github\.nets\WinFormsApp\Form_SanPham\obj\Debug\net8.0-windows\Form_SanPham.sourcelink.json
+E:\Github\.nets\WinFormsApp\Form_SanPham\obj\Debug\net8.0-windows\Form_SanPham.dll
+E:\Github\.nets\WinFormsApp\Form_SanPham\obj\Debug\net8.0-windows\refint\Form_SanPham.dll
+E:\Github\.nets\WinFormsApp\Form_SanPham\obj\Debug\net8.0-windows\Form_SanPham.pdb
+E:\Github\.nets\WinFormsApp\Form_SanPham\obj\Debug\net8.0-windows\Form_SanPham.genruntimeconfig.cache
+E:\Github\.nets\WinFormsApp\Form_SanPham\obj\Debug\net8.0-windows\ref\Form_SanPham.dll

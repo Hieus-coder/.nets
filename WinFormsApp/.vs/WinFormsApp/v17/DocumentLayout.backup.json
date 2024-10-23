@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Github\\.nets\\WinFormsApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C28FD39-112A-4504-A159-AD0D201D907C}|Login_form\\Login_form.csproj|e:\\github\\.nets\\winformsapp\\login_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C28FD39-112A-4504-A159-AD0D201D907C}|Login_form\\Login_form.csproj|solutionrelative:login_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E83252F2-C658-4880-B448-D4AA95CB782E}|Form_SanPham\\Form_SanPham.csproj|e:\\github\\.nets\\winformsapp\\form_sanpham\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E83252F2-C658-4880-B448-D4AA95CB782E}|Form_SanPham\\Form_SanPham.csproj|solutionrelative:form_sanpham\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C28FD39-112A-4504-A159-AD0D201D907C}|Login_form\\Login_form.csproj|e:\\github\\.nets\\winformsapp\\login_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5C28FD39-112A-4504-A159-AD0D201D907C}|Login_form\\Login_form.csproj|solutionrelative:login_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E83252F2-C658-4880-B448-D4AA95CB782E}|Form_SanPham\\Form_SanPham.csproj|e:\\github\\.nets\\winformsapp\\form_sanpham\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83252F2-C658-4880-B448-D4AA95CB782E}|Form_SanPham\\Form_SanPham.csproj|solutionrelative:form_sanpham\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\WinFormsApp\\Login_form\\Form1.cs",
-              "RelativeDocumentMoniker": "Login_form\\Form1.cs",
-              "ToolTip": "E:\\Github\\.nets\\WinFormsApp\\Login_form\\Form1.cs",
-              "RelativeToolTip": "Login_form\\Form1.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAswCYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T00:32:20.911Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -40,13 +27,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\Github\\.nets\\WinFormsApp\\Login_form\\Form1.cs",
-              "RelativeDocumentMoniker": "Login_form\\Form1.cs",
-              "ToolTip": "E:\\Github\\.nets\\WinFormsApp\\Login_form\\Form1.cs [Design]",
-              "RelativeToolTip": "Login_form\\Form1.cs [Design]",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\Github\\.nets\\WinFormsApp\\Form_SanPham\\Form1.cs",
+              "RelativeDocumentMoniker": "Form_SanPham\\Form1.cs",
+              "ToolTip": "E:\\Github\\.nets\\WinFormsApp\\Form_SanPham\\Form1.cs*",
+              "RelativeToolTip": "Form_SanPham\\Form1.cs*",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAcwHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T00:31:32.187Z",
+              "WhenOpened": "2024-10-23T02:45:12.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\Github\\.nets\\WinFormsApp\\Form_SanPham\\Form1.cs",
+              "RelativeDocumentMoniker": "Form_SanPham\\Form1.cs",
+              "ToolTip": "E:\\Github\\.nets\\WinFormsApp\\Form_SanPham\\Form1.cs [Design]*",
+              "RelativeToolTip": "Form_SanPham\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T02:45:04.159Z",
               "EditorCaption": " [Design]"
             }
           ]

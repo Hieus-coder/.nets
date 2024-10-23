@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp", "WinFormsApp\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator1", "Calculator1\Calculator1.csproj", "{2DF6883B-1C0A-499E-835A-4A4CE034D5F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login_form", "Login_form\Login_form.csproj", "{5C28FD39-112A-4504-A159-AD0D201D907C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Login_form", "Login_form\Login_form.csproj", "{5C28FD39-112A-4504-A159-AD0D201D907C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form_SanPham", "Form_SanPham\Form_SanPham.csproj", "{E83252F2-C658-4880-B448-D4AA95CB782E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5C28FD39-112A-4504-A159-AD0D201D907C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C28FD39-112A-4504-A159-AD0D201D907C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C28FD39-112A-4504-A159-AD0D201D907C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83252F2-C658-4880-B448-D4AA95CB782E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83252F2-C658-4880-B448-D4AA95CB782E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83252F2-C658-4880-B448-D4AA95CB782E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83252F2-C658-4880-B448-D4AA95CB782E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
