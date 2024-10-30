@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Github\\.nets\\WinFormsApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E83252F2-C658-4880-B448-D4AA95CB782E}|Form_SanPham\\Form_SanPham.csproj|E:\\Github\\.nets\\WinFormsApp\\form_sanpham\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E83252F2-C658-4880-B448-D4AA95CB782E}|Form_SanPham\\Form_SanPham.csproj|solutionrelative:form_sanpham\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E83252F2-C658-4880-B448-D4AA95CB782E}|Form_SanPham\\Form_SanPham.csproj|e:\\github\\.nets\\winformsapp\\form_sanpham\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E83252F2-C658-4880-B448-D4AA95CB782E}|Form_SanPham\\Form_SanPham.csproj|solutionrelative:form_sanpham\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E83252F2-C658-4880-B448-D4AA95CB782E}|Form_SanPham\\Form_SanPham.csproj|e:\\github\\.nets\\winformsapp\\form_sanpham\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E83252F2-C658-4880-B448-D4AA95CB782E}|Form_SanPham\\Form_SanPham.csproj|solutionrelative:form_sanpham\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E83252F2-C658-4880-B448-D4AA95CB782E}|Form_SanPham\\Form_SanPham.csproj|e:\\github\\.nets\\winformsapp\\form_sanpham\\modes\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83252F2-C658-4880-B448-D4AA95CB782E}|Form_SanPham\\Form_SanPham.csproj|solutionrelative:form_sanpham\\modes\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,20 +30,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "E:\\Github\\.nets\\WinFormsApp\\Form_SanPham\\modes\\SanPham.cs",
+              "RelativeDocumentMoniker": "Form_SanPham\\modes\\SanPham.cs",
+              "ToolTip": "E:\\Github\\.nets\\WinFormsApp\\Form_SanPham\\modes\\SanPham.cs",
+              "RelativeToolTip": "Form_SanPham\\modes\\SanPham.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:23:02.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\Github\\.nets\\WinFormsApp\\Form_SanPham\\Form1.cs",
               "RelativeDocumentMoniker": "Form_SanPham\\Form1.cs",
               "ToolTip": "E:\\Github\\.nets\\WinFormsApp\\Form_SanPham\\Form1.cs",
               "RelativeToolTip": "Form_SanPham\\Form1.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T00:44:49.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "E:\\Github\\.nets\\WinFormsApp\\Form_SanPham\\Form1.cs",
               "RelativeDocumentMoniker": "Form_SanPham\\Form1.cs",

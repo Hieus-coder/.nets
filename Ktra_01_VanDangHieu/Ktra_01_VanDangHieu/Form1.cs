@@ -1,6 +1,9 @@
 ﻿using Ktra_01_VanDangHieu.modes;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
+using System;
+using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace Ktra_01_VanDangHieu
 {
@@ -10,7 +13,25 @@ namespace Ktra_01_VanDangHieu
         public Form1()
         {
             InitializeComponent();
+            LoadAvailableProducts();
         }
+        private void LoadAvailableProducts()
+        {
+            // Giả sử danh sách sản phẩm có sẵn
+            var availableProducts = new List<Product>
+            {
+                new Product("Sản phẩm A", 1000, 1),
+                new Product("Sản phẩm B", 2000, 1),
+                new Product("Sản phẩm C", 3000, 1)
+            };
+
+            foreach (var product in availableProducts)
+            {
+                // Thêm sản phẩm vào dataGridView1
+                dataGridView1.Rows.Add(product.Name, product.Price);
+            }
+        }
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -34,9 +55,21 @@ namespace Ktra_01_VanDangHieu
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            // Khi người dùng chọn một dòng trong dataGridView1
+            if (e.RowIndex >= 0)
+            {
+                var selectedRow = dataGridView1.Rows[e.RowIndex];
+                string name = selectedRow.Cells[0].Value.ToString();
+                decimal price = Convert.ToDecimal(selectedRow.Cells[1].Value);
+
+                // Lấy ảnh sản phẩm dựa trên tên sản phẩm
+
+                // Hiển thị ảnh của sản phẩm trong PictureBox
+            }
 
         }
 
+      
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
@@ -44,21 +77,25 @@ namespace Ktra_01_VanDangHieu
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            string name = txtName.Text;
-            decimal price = decimal.Parse(txtGia.Text);
-            int quantity = int.Parse(txtSoluong.Text);
+            // Lấy thông tin từ dòng đã chọn trong dataGridView1
+            if (dataGridView1.CurrentRow != null)
+            {
+                var selectedRow = dataGridView1.CurrentRow;
+                string name = selectedRow.Cells[0].Value.ToString();
+                decimal price = Convert.ToDecimal(selectedRow.Cells[1].Value);
+                int quantity = 1; // Đặt số lượng mặc định là 1 hoặc bạn có thể thêm TextBox cho số lượng
 
-            // Giả sử bạn đã có ảnh sản phẩm trong pictureBox1
-            Image image = pictureBox1.Image;
+                // Lấy ảnh sản phẩm
 
-            // Tạo đối tượng sản phẩm mới
-            Product product = new Product(name, price, quantity, image);
+                // Tạo đối tượng sản phẩm từ thông tin trong dataGridView1
+                Product product = new Product(name, price, quantity);
 
-            // Thêm sản phẩm vào giỏ hàng
-            cart.AddProduct(product);
-
-            // Cập nhật giao diện giỏ hàng
-            UpdateCartDisplay();
+  
+              // Thêm sản phẩm vào giỏ hàng
+                cart.AddProduct(product);
+                // Cập nhật giao diện giỏ hàng
+                UpdateCartDisplay();
+            }
         }
 
         private void UpdateCartDisplay()
@@ -69,7 +106,6 @@ namespace Ktra_01_VanDangHieu
                 dataGridViewCart.Rows.Add(product.Name, product.Price, product.Quantity, product.Price * product.Quantity);
             }
 
-            // Cập nhật tổng giá trị đơn hàng
             lblTongGiaTri.Text = $"Tổng giá trị: {cart.CalculateTotal():C}";
         }
 
@@ -77,9 +113,12 @@ namespace Ktra_01_VanDangHieu
         {
             if (dataGridViewCart.CurrentRow != null)
             {
-                int selectedIndex = dataGridViewCart.CurrentRow.Index;
-                cart.RemoveProduct(cart.Products[selectedIndex]);
-                UpdateCartDisplay();
+                if (dataGridViewCart.CurrentRow != null)
+                {
+                    int selectedIndex = dataGridViewCart.CurrentRow.Index;
+                    cart.RemoveProduct(cart.Products[selectedIndex]);
+                    UpdateCartDisplay();
+                }
             }
         }
 
@@ -88,30 +127,31 @@ namespace Ktra_01_VanDangHieu
             decimal total = cart.CalculateTotal();
             MessageBox.Show($"Tổng giá trị đơn hàng: {total:C}", "Thanh toán thành công");
 
-            // Xóa giỏ hàng và cập nhật lại giao diện
             cart.ClearCart();
             UpdateCartDisplay();
         }
 
         private void btnChonAnh_Click(object sender, EventArgs e)
         {
-            using (OpenFileDialog openFileDialog = new OpenFileDialog())
-            {
-                openFileDialog.InitialDirectory = "C:\\"; // Thư mục ban đầu
-                openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp"; // Chỉ cho phép chọn file ảnh
-                openFileDialog.Title = "Chọn ảnh sản phẩm";
 
-                // Nếu người dùng chọn ảnh và nhấn OK
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    // Hiển thị ảnh trong PictureBox
-                    pictureBox1.Image = Image.FromFile(openFileDialog.FileName);
-                    pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage; // Tùy chọn hiển thị ảnh
-                }
-            }
         }
 
         private void dataGridViewCart_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void lblTongGiaTri_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridViewCart_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
 
         }
