@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Github\\.nets\\Ktra_01_VanDangHieu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0BD49AE-F4D0-4D61-91DA-E81070130F21}|Ktra_01_VanDangHieu\\Ktra_01_VanDangHieu.csproj|e:\\github\\.nets\\ktra_01_vandanghieu\\ktra_01_vandanghieu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F0BD49AE-F4D0-4D61-91DA-E81070130F21}|Ktra_01_VanDangHieu\\Ktra_01_VanDangHieu.csproj|solutionrelative:ktra_01_vandanghieu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F0BD49AE-F4D0-4D61-91DA-E81070130F21}|Ktra_01_VanDangHieu\\Ktra_01_VanDangHieu.csproj|e:\\github\\.nets\\ktra_01_vandanghieu\\ktra_01_vandanghieu\\modes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0BD49AE-F4D0-4D61-91DA-E81070130F21}|Ktra_01_VanDangHieu\\Ktra_01_VanDangHieu.csproj|solutionrelative:ktra_01_vandanghieu\\modes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0BD49AE-F4D0-4D61-91DA-E81070130F21}|Ktra_01_VanDangHieu\\Ktra_01_VanDangHieu.csproj|e:\\github\\.nets\\ktra_01_vandanghieu\\ktra_01_vandanghieu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0BD49AE-F4D0-4D61-91DA-E81070130F21}|Ktra_01_VanDangHieu\\Ktra_01_VanDangHieu.csproj|solutionrelative:ktra_01_vandanghieu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0BD49AE-F4D0-4D61-91DA-E81070130F21}|Ktra_01_VanDangHieu\\Ktra_01_VanDangHieu.csproj|e:\\github\\.nets\\ktra_01_vandanghieu\\ktra_01_vandanghieu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,20 +43,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\Github\\.nets\\Ktra_01_VanDangHieu\\Ktra_01_VanDangHieu\\modes\\Product.cs",
               "RelativeDocumentMoniker": "Ktra_01_VanDangHieu\\modes\\Product.cs",
               "ToolTip": "E:\\Github\\.nets\\Ktra_01_VanDangHieu\\Ktra_01_VanDangHieu\\modes\\Product.cs",
               "RelativeToolTip": "Ktra_01_VanDangHieu\\modes\\Product.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBAAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wBUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T00:51:36.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "E:\\Github\\.nets\\Ktra_01_VanDangHieu\\Ktra_01_VanDangHieu\\Form1.cs",
               "RelativeDocumentMoniker": "Ktra_01_VanDangHieu\\Form1.cs",

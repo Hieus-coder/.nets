@@ -18,7 +18,7 @@ namespace Ktra_01_VanDangHieu.modes
         {
             Name = name;
             Price = price;
-            Quantity = 0;
+            Quantity = quantity;
             Image = image;
         }
     }
