@@ -42,7 +42,6 @@
             dataGridView1 = new DataGridView();
             txtName = new DataGridViewTextBoxColumn();
             txtGia = new DataGridViewTextBoxColumn();
-            txtSoluong = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewCart).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -61,7 +60,7 @@
             // 
             // btnThem
             // 
-            btnThem.Location = new Point(766, 101);
+            btnThem.Location = new Point(766, 111);
             btnThem.Name = "btnThem";
             btnThem.Size = new Size(131, 29);
             btnThem.TabIndex = 7;
@@ -148,11 +147,11 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { txtName, txtGia, txtSoluong });
-            dataGridView1.Location = new Point(95, 23);
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { txtName, txtGia });
+            dataGridView1.Location = new Point(200, 23);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(430, 197);
+            dataGridView1.Size = new Size(304, 197);
             dataGridView1.TabIndex = 13;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick_1;
             // 
@@ -169,13 +168,6 @@
             txtGia.MinimumWidth = 6;
             txtGia.Name = "txtGia";
             txtGia.Width = 125;
-            // 
-            // txtSoluong
-            // 
-            txtSoluong.HeaderText = "Số lượng";
-            txtSoluong.MinimumWidth = 6;
-            txtSoluong.Name = "txtSoluong";
-            txtSoluong.Width = 125;
             // 
             // Form1
             // 
@@ -215,6 +207,5 @@
         private DataGridView dataGridView1;
         private DataGridViewTextBoxColumn txtName;
         private DataGridViewTextBoxColumn txtGia;
-        private DataGridViewTextBoxColumn txtSoluong;
     }
 }
