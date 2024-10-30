@@ -1,14 +1,37 @@
-﻿using System.Windows.Forms;
-using System.Data;
-using System.Data.SqlClient;
+﻿using Form_SanPham.models;
+using System.Drawing;
+
+
 namespace Form_SanPham
 {
     public partial class Form1 : Form
     {
-        private List<SanPham> danhSachSanPham = new();
         public Form1()
         {
             InitializeComponent();
+            List<LoaiSanPham> dsloaisp = new() {
+                new LoaiSanPham
+                {
+                    TenLoai = "Nông nghiệp",
+                    danhsachsp = new List<SanPham> {
+                        new SanPham(1, "Lúa", 10000, "hinhluapath", "Mô tả ngắn lúa", "Mô tả chi tiết lúa"),
+                        new SanPham(2, "Gạo", 15000, "hinhgaopath", "Mô tả ngắn gạo", "Mô tả chi tiết gạo")
+                    }
+                },
+                new LoaiSanPham
+                {
+                    TenLoai = "Công nghiệp",
+                    danhsachsp = new List<SanPham> {
+                    new SanPham(3, "Thép", 20000, "hinhthepath", "Mô tả ngắn thép", "Mô tả chi tiết thép"),
+                    new SanPham(4, "Nhựa", 25000, "hinhnhuapath", "Mô tả ngắn nhựa", "Mô tả chi tiết nhựa")
+                    }
+                }
+            };
+            cbcLoaiSP.DataSource = dsloaisp;
+            cbcLoaiSP.DisplayMember = "TenLoai";
+            dataGridView.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView.MultiSelect = false;
+            dataGridView.CellClick += dataGridView_CellClick;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -51,102 +74,126 @@ namespace Form_SanPham
         {
 
         }
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            // dataGridView1.DataSource = laySanPham().Tables[0];
-            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect; // Cho phép chọn hàng
-            dataGridView1.DataSource = danhSachSanPham; // Cập nhật nguồn dữ liệu
 
-        }
         private void btn_ThemClick_Click(object sender, EventArgs e)
         {
 
             try
             {
-                // Lấy thông tin từ các TextBox và ComboBox
-                string maSP = MaSP.Text; // Lấy mã sản phẩm từ TextBox
-                string tenSP = TenSP.Text;
-                decimal donGia;
-                if (!decimal.TryParse(DonGia.Text, out donGia))
+                int MaSP = Convert.ToInt32(txtMasp.Text);
+                string TenSP = txtTenSp.Text;
+                string HinhAnh = txtImg.Text;
+                decimal DonGia = Convert.ToDecimal(txtDongia.Text);
+                string Motangan = txtMotangan.Text;
+                string Motachitiet = txtMotachitiet.Text;
+                if (cbcLoaiSP.SelectedItem is LoaiSanPham loaisp)
                 {
-                    MessageBox.Show("Đơn giá không hợp lệ.");
-                    return;
+                    loaisp.danhsachsp.Add(new SanPham(MaSP, TenSP, DonGia, HinhAnh, Motangan, Motachitiet));
+                    dataGridView.DataSource = null;
+                    dataGridView.DataSource = loaisp.danhsachsp;
                 }
-                string hinhAnh = HinhAnh.Text;
-                string moTaNgan = MoTa.Text;
-                string moTaChiTiet = MoTaChiTiet.Text;
-                string? loaiSP = LoaiSP.SelectedItem?.ToString();
-
-                if (string.IsNullOrEmpty(loaiSP))
-                {
-                    MessageBox.Show("Vui lòng chọn loại sản phẩm.");
-                    return;
-                }
-
-                // Tạo đối tượng SanPham và thêm vào danh sách
-                SanPham sanPham = new()
-                {
-                    MaSP = maSP,
-                    TenSP = tenSP,
-                    DonGia = donGia,
-                    HinhAnh = hinhAnh,
-                    MoTa = moTaNgan,
-                    MoTaChiTiet = moTaChiTiet,
-                    LoaiSP = loaiSP
-                };
-
-                danhSachSanPham.Add(sanPham); // Thêm sản phẩm vào danh sách
-
-                // Insert db
-
-                // Cập nhật lại DataGridView
-                dataGridView1.DataSource = null; // Đặt lại nguồn dữ liệu để làm mới
-                dataGridView1.DataSource = danhSachSanPham; // Cập nhật nguồn dữ liệu
-
-                // query db => set datasource
-
-                // Xóa các TextBox và ComboBox
-                MaSP.Clear();
-                TenSP.Clear();
-                DonGia.Clear();
-                HinhAnh.Clear();
-                MoTa.Clear();
-                MoTaChiTiet.Clear();
-                LoaiSP.SelectedIndex = 0;
             }
-            catch (Exception ex)
+            catch
             {
-                MessageBox.Show("Lỗi: " + ex.Message);
+
             }
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
-
         private void btnSua_Click_Click(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = null; // Đặt lại nguồn dữ liệu để làm mới
-            dataGridView1.DataSource = danhSachSanPham; // Cập nhật nguồn dữ liệu
+            try
+            {
+                int MaSP = Convert.ToInt32(txtMasp.Text);
+                string TenSP = txtTenSp.Text;
+                string HinhAnh = txtImg.Text;
+                decimal DonGia = Convert.ToDecimal(txtDongia.Text);
+                string Motangan = txtMotangan.Text;
+                string Motachitiet = txtMotachitiet.Text;
+                if (cbcLoaiSP.SelectedItem is LoaiSanPham loaisp)
+                {
+                    SanPham sp = loaisp.danhsachsp.Where(p => p.MaSP == MaSP).FirstOrDefault();
+                    sp.MaSP = MaSP;
+                    sp.TenSP = TenSP;
+                    sp.HinhAnh = HinhAnh;
+                    sp.DonGia = DonGia;
+                    sp.Motangan = Motangan;
+                    sp.Motachitiet = Motachitiet;
+                    dataGridView.DataSource = null;
+                    dataGridView.DataSource = loaisp.danhsachsp;
+                    txtMasp.Clear();
+                    txtDongia.Clear();
+                    txtImg.Clear();
+                    txtMotangan.Clear();
+                    txtMotachitiet.Clear();
+                    txtTenSp.Clear();
+                }
+            }
+            catch (Exception ex) { }
 
         }
 
         private void dataGridView1_AllowUserToAddRowsChanged(object sender, EventArgs e)
         {
-            dataGridView1.AllowUserToAddRows = false;
-
         }
 
         private void btnLamMoi_Click_Click(object sender, EventArgs e)
         {
-            MaSP.Clear();
-            TenSP.Clear();
-            DonGia.Clear();
-            HinhAnh.Clear();
-            MoTa.Clear();
-            MoTaChiTiet.Clear();
-            LoaiSP.SelectedIndex = 0;
+
+        }
+
+        private void MaSP_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dataGridView.Rows[e.RowIndex];
+
+                txtMasp.Clear();
+                txtDongia.Clear();
+                txtImg.Clear();
+                txtMotangan.Clear();
+                txtMotachitiet.Clear();
+                txtTenSp.Clear();
+
+                txtMasp.Text = row.Cells["MaSP"].Value?.ToString();
+                txtTenSp.Text = row.Cells["TenSP"].Value?.ToString();
+                txtImg.Text = row.Cells["HinhAnh"].Value?.ToString();
+                txtDongia.Text = row.Cells["DonGia"].Value?.ToString();
+                txtMotangan.Text = row.Cells["Motangan"].Value?.ToString();
+                txtMotachitiet.Text = row.Cells["Motachitiet"].Value?.ToString();
+            }
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+
+                int _masp = Convert.ToInt32(txtMasp.Text);
+                if (cbcLoaiSP.SelectedItem is LoaiSanPham loaisp)
+                {
+                    loaisp.danhsachsp.Remove(loaisp.danhsachsp.Where(p => p.MaSP == _masp).FirstOrDefault());
+                    dataGridView.DataSource = null;
+                    dataGridView.DataSource = loaisp.danhsachsp;
+                    txtMasp.Clear();
+                    txtDongia.Clear();
+                    txtImg.Clear();
+                    txtMotangan.Clear();
+                    txtMotachitiet.Clear();
+                    txtTenSp.Clear();
+                }
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
         }
     }
 

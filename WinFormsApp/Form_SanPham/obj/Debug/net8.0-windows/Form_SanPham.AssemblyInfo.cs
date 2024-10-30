@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Form_SanPham")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fc7b7fcbb5ec565bdf09356e891164c59ad4343")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+835c5c4c543d906925dfe9f393fcd105e53d9891")]
 [assembly: System.Reflection.AssemblyProductAttribute("Form_SanPham")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Form_SanPham")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

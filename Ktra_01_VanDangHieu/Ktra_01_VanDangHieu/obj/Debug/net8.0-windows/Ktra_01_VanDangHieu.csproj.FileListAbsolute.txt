@@ -1,0 +1,17 @@
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\bin\Debug\net8.0-windows\Ktra_01_VanDangHieu.exe
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\bin\Debug\net8.0-windows\Ktra_01_VanDangHieu.deps.json
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\bin\Debug\net8.0-windows\Ktra_01_VanDangHieu.runtimeconfig.json
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\bin\Debug\net8.0-windows\Ktra_01_VanDangHieu.dll
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\bin\Debug\net8.0-windows\Ktra_01_VanDangHieu.pdb
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\obj\Debug\net8.0-windows\Ktra_01_VanDangHieu.Form1.resources
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\obj\Debug\net8.0-windows\Ktra_01_VanDangHieu.csproj.GenerateResource.cache
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\obj\Debug\net8.0-windows\Ktra_01_VanDangHieu.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\obj\Debug\net8.0-windows\Ktra_01_VanDangHieu.AssemblyInfoInputs.cache
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\obj\Debug\net8.0-windows\Ktra_01_VanDangHieu.AssemblyInfo.cs
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\obj\Debug\net8.0-windows\Ktra_01_VanDangHieu.csproj.CoreCompileInputs.cache
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\obj\Debug\net8.0-windows\Ktra_01_VanDangHieu.sourcelink.json
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\obj\Debug\net8.0-windows\Ktra_01_VanDangHieu.dll
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\obj\Debug\net8.0-windows\refint\Ktra_01_VanDangHieu.dll
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\obj\Debug\net8.0-windows\Ktra_01_VanDangHieu.pdb
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\obj\Debug\net8.0-windows\Ktra_01_VanDangHieu.genruntimeconfig.cache
+E:\Github\.nets\Ktra_01_VanDangHieu\Ktra_01_VanDangHieu\obj\Debug\net8.0-windows\ref\Ktra_01_VanDangHieu.dll

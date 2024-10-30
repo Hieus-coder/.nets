@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             groupBox2 = new GroupBox();
-            dataGridView1 = new DataGridView();
+            dataGridView = new DataGridView();
             button1 = new Button();
             textBox1 = new TextBox();
             label1 = new Label();
-            LoaiSP = new ComboBox();
-            MoTaChiTiet = new TextBox();
-            MoTa = new TextBox();
-            HinhAnh = new TextBox();
-            DonGia = new TextBox();
-            TenSP = new TextBox();
+            cbcLoaiSP = new ComboBox();
+            txtMotachitiet = new TextBox();
+            txtMotangan = new TextBox();
+            txtImg = new TextBox();
+            txtDongia = new TextBox();
+            txtTenSp = new TextBox();
             label9 = new Label();
             label10 = new Label();
             label11 = new Label();
@@ -46,22 +46,22 @@
             label13 = new Label();
             label14 = new Label();
             label15 = new Label();
-            MaSP = new TextBox();
+            txtMasp = new TextBox();
             groupBox3 = new GroupBox();
-            btnXoa_Click = new Button();
-            btnSua_Click = new Button();
-            btn_ThemClick = new Button();
-            btnLamMoi_Click = new Button();
+            btnXoa = new Button();
+            btnSua = new Button();
+            btnThem = new Button();
+            btnLamMoi = new Button();
             groupBox1 = new GroupBox();
             groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
             groupBox3.SuspendLayout();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(dataGridView1);
+            groupBox2.Controls.Add(dataGridView);
             groupBox2.Controls.Add(button1);
             groupBox2.Controls.Add(textBox1);
             groupBox2.Controls.Add(label1);
@@ -72,16 +72,18 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "Dữ liệu";
             // 
-            // dataGridView1
+            // dataGridView
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(0, 78);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(772, 569);
-            dataGridView1.TabIndex = 4;
-            dataGridView1.AllowUserToAddRowsChanged += dataGridView1_AllowUserToAddRowsChanged;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            dataGridView.AllowUserToAddRows = false;
+            dataGridView.AllowUserToDeleteRows = false;
+            dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView.Location = new Point(0, 78);
+            dataGridView.Name = "dataGridView";
+            dataGridView.ReadOnly = true;
+            dataGridView.RowHeadersWidth = 51;
+            dataGridView.Size = new Size(772, 569);
+            dataGridView.TabIndex = 0;
+            dataGridView.CellContentClick += dataGridView_CellContentClick;
             // 
             // button1
             // 
@@ -110,51 +112,50 @@
             label1.Text = "Tìm kiếm:";
             label1.Click += label1_Click;
             // 
-            // LoaiSP
+            // cbcLoaiSP
             // 
-            LoaiSP.FormattingEnabled = true;
-            LoaiSP.Items.AddRange(new object[] { "Trứng gà ", "Trứng Vịt", "Trứng ngỗng", "Trứng đà điểu" });
-            LoaiSP.Location = new Point(134, 380);
-            LoaiSP.Name = "LoaiSP";
-            LoaiSP.Size = new Size(278, 28);
-            LoaiSP.TabIndex = 27;
-            LoaiSP.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
+            cbcLoaiSP.FormattingEnabled = true;
+            cbcLoaiSP.Location = new Point(134, 380);
+            cbcLoaiSP.Name = "cbcLoaiSP";
+            cbcLoaiSP.Size = new Size(278, 28);
+            cbcLoaiSP.TabIndex = 27;
+            cbcLoaiSP.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
             // 
-            // MoTaChiTiet
+            // txtMotachitiet
             // 
-            MoTaChiTiet.Location = new Point(134, 262);
-            MoTaChiTiet.Multiline = true;
-            MoTaChiTiet.Name = "MoTaChiTiet";
-            MoTaChiTiet.Size = new Size(278, 100);
-            MoTaChiTiet.TabIndex = 26;
+            txtMotachitiet.Location = new Point(135, 259);
+            txtMotachitiet.Multiline = true;
+            txtMotachitiet.Name = "txtMotachitiet";
+            txtMotachitiet.Size = new Size(278, 100);
+            txtMotachitiet.TabIndex = 26;
             // 
-            // MoTa
+            // txtMotangan
             // 
-            MoTa.Location = new Point(134, 217);
-            MoTa.Name = "MoTa";
-            MoTa.Size = new Size(278, 27);
-            MoTa.TabIndex = 25;
+            txtMotangan.Location = new Point(134, 217);
+            txtMotangan.Name = "txtMotangan";
+            txtMotangan.Size = new Size(278, 27);
+            txtMotangan.TabIndex = 25;
             // 
-            // HinhAnh
+            // txtImg
             // 
-            HinhAnh.Location = new Point(134, 176);
-            HinhAnh.Name = "HinhAnh";
-            HinhAnh.Size = new Size(278, 27);
-            HinhAnh.TabIndex = 24;
+            txtImg.Location = new Point(134, 176);
+            txtImg.Name = "txtImg";
+            txtImg.Size = new Size(278, 27);
+            txtImg.TabIndex = 24;
             // 
-            // DonGia
+            // txtDongia
             // 
-            DonGia.Location = new Point(135, 134);
-            DonGia.Name = "DonGia";
-            DonGia.Size = new Size(277, 27);
-            DonGia.TabIndex = 23;
+            txtDongia.Location = new Point(135, 134);
+            txtDongia.Name = "txtDongia";
+            txtDongia.Size = new Size(277, 27);
+            txtDongia.TabIndex = 23;
             // 
-            // TenSP
+            // txtTenSp
             // 
-            TenSP.Location = new Point(134, 92);
-            TenSP.Name = "TenSP";
-            TenSP.Size = new Size(278, 27);
-            TenSP.TabIndex = 22;
+            txtTenSp.Location = new Point(134, 92);
+            txtTenSp.Name = "txtTenSp";
+            txtTenSp.Size = new Size(278, 27);
+            txtTenSp.TabIndex = 22;
             // 
             // label9
             // 
@@ -219,19 +220,20 @@
             label15.TabIndex = 15;
             label15.Text = "Mã SP:";
             // 
-            // MaSP
+            // txtMasp
             // 
-            MaSP.Location = new Point(134, 46);
-            MaSP.Name = "MaSP";
-            MaSP.Size = new Size(125, 27);
-            MaSP.TabIndex = 14;
+            txtMasp.Location = new Point(134, 46);
+            txtMasp.Name = "txtMasp";
+            txtMasp.Size = new Size(125, 27);
+            txtMasp.TabIndex = 14;
+            txtMasp.TextChanged += MaSP_TextChanged;
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(btnXoa_Click);
-            groupBox3.Controls.Add(btnSua_Click);
-            groupBox3.Controls.Add(btn_ThemClick);
-            groupBox3.Controls.Add(btnLamMoi_Click);
+            groupBox3.Controls.Add(btnXoa);
+            groupBox3.Controls.Add(btnSua);
+            groupBox3.Controls.Add(btnThem);
+            groupBox3.Controls.Add(btnLamMoi);
             groupBox3.Location = new Point(3, 575);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(445, 90);
@@ -239,56 +241,57 @@
             groupBox3.TabStop = false;
             groupBox3.Text = "Chức năng";
             // 
-            // btnXoa_Click
+            // btnXoa
             // 
-            btnXoa_Click.Location = new Point(327, 43);
-            btnXoa_Click.Name = "btnXoa_Click";
-            btnXoa_Click.Size = new Size(94, 29);
-            btnXoa_Click.TabIndex = 3;
-            btnXoa_Click.Text = "Xóa";
-            btnXoa_Click.UseVisualStyleBackColor = true;
+            btnXoa.Location = new Point(327, 43);
+            btnXoa.Name = "btnXoa";
+            btnXoa.Size = new Size(94, 29);
+            btnXoa.TabIndex = 3;
+            btnXoa.Text = "Xóa";
+            btnXoa.UseVisualStyleBackColor = true;
+            btnXoa.Click += btnXoa_Click;
             // 
-            // btnSua_Click
+            // btnSua
             // 
-            btnSua_Click.Location = new Point(227, 43);
-            btnSua_Click.Name = "btnSua_Click";
-            btnSua_Click.Size = new Size(94, 29);
-            btnSua_Click.TabIndex = 2;
-            btnSua_Click.Text = "Sửa";
-            btnSua_Click.UseVisualStyleBackColor = true;
-            btnSua_Click.Click += btnSua_Click_Click;
+            btnSua.Location = new Point(227, 43);
+            btnSua.Name = "btnSua";
+            btnSua.Size = new Size(94, 29);
+            btnSua.TabIndex = 2;
+            btnSua.Text = "Sửa";
+            btnSua.UseVisualStyleBackColor = true;
+            btnSua.Click += btnSua_Click_Click;
             // 
-            // btn_ThemClick
+            // btnThem
             // 
-            btn_ThemClick.Location = new Point(127, 43);
-            btn_ThemClick.Name = "btn_ThemClick";
-            btn_ThemClick.Size = new Size(94, 29);
-            btn_ThemClick.TabIndex = 1;
-            btn_ThemClick.Text = "Thêm";
-            btn_ThemClick.UseVisualStyleBackColor = true;
-            btn_ThemClick.Click += btn_ThemClick_Click;
+            btnThem.Location = new Point(127, 43);
+            btnThem.Name = "btnThem";
+            btnThem.Size = new Size(94, 29);
+            btnThem.TabIndex = 1;
+            btnThem.Text = "Thêm";
+            btnThem.UseVisualStyleBackColor = true;
+            btnThem.Click += btn_ThemClick_Click;
             // 
-            // btnLamMoi_Click
+            // btnLamMoi
             // 
-            btnLamMoi_Click.Location = new Point(24, 43);
-            btnLamMoi_Click.Name = "btnLamMoi_Click";
-            btnLamMoi_Click.Size = new Size(94, 29);
-            btnLamMoi_Click.TabIndex = 0;
-            btnLamMoi_Click.Text = "Làm mới";
-            btnLamMoi_Click.UseVisualStyleBackColor = true;
-            btnLamMoi_Click.Click += btnLamMoi_Click_Click;
+            btnLamMoi.Location = new Point(24, 43);
+            btnLamMoi.Name = "btnLamMoi";
+            btnLamMoi.Size = new Size(94, 29);
+            btnLamMoi.TabIndex = 0;
+            btnLamMoi.Text = "Làm mới";
+            btnLamMoi.UseVisualStyleBackColor = true;
+            btnLamMoi.Click += btnLamMoi_Click_Click;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(LoaiSP);
-            groupBox1.Controls.Add(TenSP);
-            groupBox1.Controls.Add(MoTaChiTiet);
-            groupBox1.Controls.Add(MaSP);
-            groupBox1.Controls.Add(MoTa);
+            groupBox1.Controls.Add(cbcLoaiSP);
+            groupBox1.Controls.Add(txtTenSp);
+            groupBox1.Controls.Add(txtMotachitiet);
+            groupBox1.Controls.Add(txtMasp);
+            groupBox1.Controls.Add(txtMotangan);
             groupBox1.Controls.Add(label15);
-            groupBox1.Controls.Add(HinhAnh);
+            groupBox1.Controls.Add(txtImg);
             groupBox1.Controls.Add(label14);
-            groupBox1.Controls.Add(DonGia);
+            groupBox1.Controls.Add(txtDongia);
             groupBox1.Controls.Add(label13);
             groupBox1.Controls.Add(label12);
             groupBox1.Controls.Add(label9);
@@ -311,10 +314,9 @@
             Controls.Add(groupBox2);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView).EndInit();
             groupBox3.ResumeLayout(false);
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
@@ -327,16 +329,16 @@
         private TextBox textBox1;
         private Label label1;
         private GroupBox groupBox3;
-        private Button btnXoa_Click;
-        private Button btnSua_Click;
-        private Button btn_ThemClick;
-        private Button btnLamMoi_Click;
-        private ComboBox LoaiSP;
-        private TextBox MoTaChiTiet;
-        private TextBox MoTa;
-        private TextBox HinhAnh;
-        private TextBox DonGia;
-        private TextBox TenSP;
+        private Button btnXoa;
+        private Button btnSua;
+        private Button btnThem;
+        private Button btnLamMoi;
+        private ComboBox cbcLoaiSP;
+        private TextBox txtMotachitiet;
+        private TextBox txtMotangan;
+        private TextBox txtImg;
+        private TextBox txtDongia;
+        private TextBox txtTenSp;
         private Label label9;
         private Label label10;
         private Label label11;
@@ -344,8 +346,8 @@
         private Label label13;
         private Label label14;
         private Label label15;
-        private TextBox MaSP;
+        private TextBox txtMasp;
         private GroupBox groupBox1;
-        private DataGridView dataGridView1;
+        private DataGridView dataGridView;
     }
 }
