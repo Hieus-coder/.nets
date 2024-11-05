@@ -1,0 +1,17 @@
+E:\Github\.nets\TH_05_11\TH_05_11\obj\Debug\net8.0-windows\TH_05_11.Form1.resources
+E:\Github\.nets\TH_05_11\TH_05_11\obj\Debug\net8.0-windows\TH_05_11.csproj.GenerateResource.cache
+E:\Github\.nets\TH_05_11\TH_05_11\obj\Debug\net8.0-windows\TH_05_11.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\.nets\TH_05_11\TH_05_11\obj\Debug\net8.0-windows\TH_05_11.AssemblyInfoInputs.cache
+E:\Github\.nets\TH_05_11\TH_05_11\obj\Debug\net8.0-windows\TH_05_11.AssemblyInfo.cs
+E:\Github\.nets\TH_05_11\TH_05_11\obj\Debug\net8.0-windows\TH_05_11.csproj.CoreCompileInputs.cache
+E:\Github\.nets\TH_05_11\TH_05_11\obj\Debug\net8.0-windows\TH_05_11.sourcelink.json
+E:\Github\.nets\TH_05_11\TH_05_11\bin\Debug\net8.0-windows\TH_05_11.exe
+E:\Github\.nets\TH_05_11\TH_05_11\bin\Debug\net8.0-windows\TH_05_11.deps.json
+E:\Github\.nets\TH_05_11\TH_05_11\bin\Debug\net8.0-windows\TH_05_11.runtimeconfig.json
+E:\Github\.nets\TH_05_11\TH_05_11\bin\Debug\net8.0-windows\TH_05_11.dll
+E:\Github\.nets\TH_05_11\TH_05_11\bin\Debug\net8.0-windows\TH_05_11.pdb
+E:\Github\.nets\TH_05_11\TH_05_11\obj\Debug\net8.0-windows\TH_05_11.dll
+E:\Github\.nets\TH_05_11\TH_05_11\obj\Debug\net8.0-windows\refint\TH_05_11.dll
+E:\Github\.nets\TH_05_11\TH_05_11\obj\Debug\net8.0-windows\TH_05_11.pdb
+E:\Github\.nets\TH_05_11\TH_05_11\obj\Debug\net8.0-windows\TH_05_11.genruntimeconfig.cache
+E:\Github\.nets\TH_05_11\TH_05_11\obj\Debug\net8.0-windows\ref\TH_05_11.dll
