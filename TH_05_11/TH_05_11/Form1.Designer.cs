@@ -37,6 +37,7 @@
             btnThemdichvu = new Button();
             btnLuu = new Button();
             panel1 = new Panel();
+            txtId = new TextBox();
             txtDiachi = new TextBox();
             txtSdt = new TextBox();
             txtTen = new TextBox();
@@ -144,6 +145,7 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(txtId);
             panel1.Controls.Add(txtDiachi);
             panel1.Controls.Add(txtSdt);
             panel1.Controls.Add(txtTen);
@@ -157,25 +159,34 @@
             panel1.TabIndex = 8;
             panel1.Paint += panel1_Paint;
             // 
+            // txtId
+            // 
+            txtId.Location = new Point(126, 15);
+            txtId.Name = "txtId";
+            txtId.ReadOnly = true;
+            txtId.Size = new Size(106, 27);
+            txtId.TabIndex = 7;
+            txtId.TextChanged += textBox1_TextChanged;
+            // 
             // txtDiachi
             // 
-            txtDiachi.Location = new Point(100, 122);
+            txtDiachi.Location = new Point(126, 122);
             txtDiachi.Name = "txtDiachi";
-            txtDiachi.Size = new Size(125, 27);
+            txtDiachi.Size = new Size(240, 27);
             txtDiachi.TabIndex = 6;
             // 
             // txtSdt
             // 
             txtSdt.Location = new Point(126, 89);
             txtSdt.Name = "txtSdt";
-            txtSdt.Size = new Size(125, 27);
+            txtSdt.Size = new Size(240, 27);
             txtSdt.TabIndex = 5;
             // 
             // txtTen
             // 
-            txtTen.Location = new Point(77, 48);
+            txtTen.Location = new Point(126, 48);
             txtTen.Name = "txtTen";
-            txtTen.Size = new Size(120, 27);
+            txtTen.Size = new Size(240, 27);
             txtTen.TabIndex = 4;
             // 
             // label4
@@ -332,5 +343,6 @@
         private Label label5;
         private TextBox txtPrice;
         private Button btnThanhtoan;
+        private TextBox txtId;
     }
 }

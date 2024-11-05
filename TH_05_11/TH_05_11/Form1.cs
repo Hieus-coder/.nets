@@ -51,20 +51,18 @@ namespace TH_05_11
                 Customer selectedCustomer = customers[e.RowIndex];
                 selectedCustomerId = selectedCustomer.Id;
 
-
+                // Hiển thị thông tin khách hàng lên giao diện
+                txtId.Text = selectedCustomerId.ToString(); // Hiển thị ID
                 txtTen.Text = selectedCustomer.Name;
                 txtSdt.Text = selectedCustomer.Phone;
                 txtDiachi.Text = selectedCustomer.Address;
 
-
                 currentInvoice = invoices.FirstOrDefault(i => i.CustomerId == selectedCustomerId);
-
 
                 lbInvoiceServices.Items.Clear();
 
                 if (currentInvoice != null)
                 {
-
                     foreach (var service in currentInvoice.Services)
                     {
                         lbInvoiceServices.Items.Add(service.Name);
@@ -88,7 +86,7 @@ namespace TH_05_11
                 {
                     invoices.Add(currentInvoice);
                 }
-
+                txtId.Clear();
                 txtTen.Clear();
                 txtSdt.Clear();
                 txtDiachi.Clear();
@@ -152,6 +150,7 @@ namespace TH_05_11
             Customer selectedCustomer = customers.FirstOrDefault(c => c.Id == selectedCustomerId);
             if (selectedCustomer != null)
             {
+                txtId.Text = selectedCustomerId.ToString();
                 selectedCustomer.Name = txtTen.Text;
                 selectedCustomer.Phone = txtSdt.Text;
                 selectedCustomer.Address = txtDiachi.Text;
@@ -254,14 +253,14 @@ namespace TH_05_11
                 Invoice invoiceToRemove = invoices.FirstOrDefault(i => i.CustomerId == selectedCustomerId);
                 if (invoiceToRemove != null)
                 {
-                    invoices.Remove(invoiceToRemove); 
+                    invoices.Remove(invoiceToRemove);
                 }
 
                 int indexToRemove = customers.FindIndex(c => c.Id == selectedCustomerId);
                 if (indexToRemove >= 0)
                 {
                     customers.RemoveAt(indexToRemove);
-                    UpdateCustomerGridView(); 
+                    UpdateCustomerGridView();
                 }
 
                 txtTen.Clear();
@@ -269,10 +268,15 @@ namespace TH_05_11
                 txtDiachi.Clear();
                 lbInvoiceServices.Items.Clear();
                 txtPrice.Clear();
-                selectedCustomerId = -1; 
-                currentInvoice = null; 
+                selectedCustomerId = -1;
+                currentInvoice = null;
                 MessageBox.Show("Thành công!", "Thông báo");
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
