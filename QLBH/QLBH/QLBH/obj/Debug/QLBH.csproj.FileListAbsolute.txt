@@ -1,0 +1,40 @@
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\bin\Debug\QLBH.exe.config
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\bin\Debug\QLBH.exe
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\bin\Debug\QLBH.pdb
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.csprojAssemblyReference.cache
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.frmHeThong.resources
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.cache
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.exe
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.pdb
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.frmDangNhap.resources
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.frmSanPham.resources
+E:\Giang Day\2022-2023\Lập trình .NET\D16CNPM4\QLBH\QLBH\obj\Debug\QLBH.frmBaoCao.resources
+D:\Zalo\QLBH\QLBH\QLBH\bin\Debug\QLBH.exe.config
+D:\Zalo\QLBH\QLBH\QLBH\bin\Debug\QLBH.exe
+D:\Zalo\QLBH\QLBH\QLBH\bin\Debug\QLBH.pdb
+D:\Zalo\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+D:\Zalo\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmBaoCao.resources
+D:\Zalo\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmDangNhap.resources
+D:\Zalo\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmHeThong.resources
+D:\Zalo\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmSanPham.resources
+D:\Zalo\QLBH\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+D:\Zalo\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.cache
+D:\Zalo\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+D:\Zalo\QLBH\QLBH\QLBH\obj\Debug\QLBH.exe
+D:\Zalo\QLBH\QLBH\QLBH\obj\Debug\QLBH.pdb
+E:\Github\.nets\QLBH\QLBH\QLBH\bin\Debug\QLBH.exe.config
+E:\Github\.nets\QLBH\QLBH\QLBH\bin\Debug\QLBH.exe
+E:\Github\.nets\QLBH\QLBH\QLBH\bin\Debug\QLBH.pdb
+E:\Github\.nets\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.AssemblyReference.cache
+E:\Github\.nets\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmBaoCao.resources
+E:\Github\.nets\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmDangNhap.resources
+E:\Github\.nets\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmHeThong.resources
+E:\Github\.nets\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmSanPham.resources
+E:\Github\.nets\QLBH\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+E:\Github\.nets\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.cache
+E:\Github\.nets\QLBH\QLBH\QLBH\obj\Debug\QLBH.csproj.CoreCompileInputs.cache
+E:\Github\.nets\QLBH\QLBH\QLBH\obj\Debug\QLBH.exe
+E:\Github\.nets\QLBH\QLBH\QLBH\obj\Debug\QLBH.pdb
+E:\Github\.nets\QLBH\QLBH\QLBH\obj\Debug\QLBH.frmLoaiSP.resources
