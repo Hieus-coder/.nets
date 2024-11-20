@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "E:\\Github\\.nets\\QLBH\\QLBH\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\github\\.nets\\qlbh\\qlbh\\qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\github\\.nets\\qlbh\\qlbh\\qlbh\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\github\\.nets\\qlbh\\qlbh\\qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmloaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\github\\.nets\\qlbh\\qlbh\\qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\github\\.nets\\qlbh\\qlbh\\qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\github\\.nets\\qlbh\\qlbh\\qlbh\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\github\\.nets\\qlbh\\qlbh\\qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|e:\\github\\.nets\\qlbh\\qlbh\\qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9858B75-C538-487A-A71C-B50BB78043FD}|QLBH\\QLBH.csproj|solutionrelative:qlbh\\frmhethong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,65 +38,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KetNoi.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\KetNoi.cs",
-              "RelativeDocumentMoniker": "QLBH\\KetNoi.cs",
-              "ToolTip": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\KetNoi.cs",
-              "RelativeToolTip": "QLBH\\KetNoi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:18:24.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmLoaiSP.cs",
-              "DocumentMoniker": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\frmLoaiSP.cs",
-              "RelativeDocumentMoniker": "QLBH\\frmLoaiSP.cs",
-              "ToolTip": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\frmLoaiSP.cs",
-              "RelativeToolTip": "QLBH\\frmLoaiSP.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAwwFEAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:13:44.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "frmSanPham.cs",
               "DocumentMoniker": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\frmSanPham.cs",
               "RelativeDocumentMoniker": "QLBH\\frmSanPham.cs",
               "ToolTip": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\frmSanPham.cs",
               "RelativeToolTip": "QLBH\\frmSanPham.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAIwJAAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAUwFAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:13:38.015Z",
+              "WhenOpened": "2024-11-20T03:51:19.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "frmSanPham.cs [Design]",
               "DocumentMoniker": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\frmSanPham.cs",
               "RelativeDocumentMoniker": "QLBH\\frmSanPham.cs",
               "ToolTip": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\frmSanPham.cs [Design]",
               "RelativeToolTip": "QLBH\\frmSanPham.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:13:35.965Z",
+              "WhenOpened": "2024-11-20T03:51:15.556Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmLoaiSP.cs [Design]",
-              "DocumentMoniker": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\frmLoaiSP.cs",
-              "RelativeDocumentMoniker": "QLBH\\frmLoaiSP.cs",
-              "ToolTip": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\frmLoaiSP.cs [Design]",
-              "RelativeToolTip": "QLBH\\frmLoaiSP.cs [Design]",
+              "Title": "KetNoi.cs",
+              "DocumentMoniker": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\KetNoi.cs",
+              "RelativeDocumentMoniker": "QLBH\\KetNoi.cs",
+              "ToolTip": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\KetNoi.cs",
+              "RelativeToolTip": "QLBH\\KetNoi.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:13:34.952Z",
+              "WhenOpened": "2024-11-20T03:51:03.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmHeThong.cs",
+              "DocumentMoniker": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\frmHeThong.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmHeThong.cs",
+              "ToolTip": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\frmHeThong.cs",
+              "RelativeToolTip": "QLBH\\frmHeThong.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T03:29:11.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmHeThong.cs [Design]",
+              "DocumentMoniker": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\frmHeThong.cs",
+              "RelativeDocumentMoniker": "QLBH\\frmHeThong.cs",
+              "ToolTip": "E:\\Github\\.nets\\QLBH\\QLBH\\QLBH\\frmHeThong.cs [Design]",
+              "RelativeToolTip": "QLBH\\frmHeThong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T03:29:10.02Z",
               "EditorCaption": " [Design]"
             }
           ]
